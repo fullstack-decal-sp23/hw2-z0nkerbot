@@ -20,6 +20,15 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label {
+  color: green;
+}
+
+.label:hover {
+  transform: scale(10);
+  color: #A01641;
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,6 +41,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
+}
+
+.twohoriz {
+  width: 50%;
 }
 
 .threehoriz {
@@ -58,6 +72,17 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+.red {
+  background-color: red;
+}
+
+.light-blue {
+  background-color: #00A2E1
+}
+
+#white {
+  background-color: white
+}
 
 .orange {
   background-color: orange;
@@ -95,14 +120,20 @@ h2 {
 
 .thailand-red {
   /* TODO */
+  background-color: #B5002D;
+  height: 16.66%;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+  height: 16.66%;
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  height: 33.33%;
 }
 
 /* END QUESTION 2 */
@@ -126,14 +157,34 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
-}
-
-.mexico-img {
-  /* TODO */
+  height: 300px;
+  width: 166.66px;
 }
 
 .mexico-red {
   background-color: #ce1126;
+  height: 300px;
+  width: 166.66px;
+  margin-left: 60px;
+}
+
+.mexico-white {
+  background-color: white;
+  height: 300px;
+  width: 166.66px;
+}
+
+img {
+  position:relative;
+  top:100px;
+  left:30px;
+  max-height: 100px;
+  max-width: 166.67px;
+}
+
+.flexbox {
+  display: inline-flex;
+  flex-direction: row;
 }
 
 /* QUESTION 6 */
@@ -150,11 +201,13 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +215,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 15px 15px 15px 15px;
 }
